@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-16" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Obuna Bo'lish</title>
+  <!-- Inline Critical CSS -->
+  <style>* {margin: 0;padding: 0;box-sizing: border-box;}.header {padding-top: 180px;background-color: #171717;min-height: 100vh;}.header-container {margin-left: auto;margin-right: auto;max-width: 671px;width: 100%;display: flex;padding-left: 20px;padding-right: 20px;}.hero-left {max-width: 903px;width: 100%;display: flex;flex-direction: column;align-items: center;}.hero-title {font-family: "Bebas Neue", sans-serif;font-weight: 700;font-size: 96px;line-height: 100%;text-align: center;margin-bottom: 25px;text-transform: uppercase;max-width: 622px;color: white;}.hero-text {font-family: "Montserrat", sans-serif;font-weight: 500;font-size: 24px;line-height: 100%;margin-bottom: 58px;max-width: 522px;color: white;text-align: center;}.hero-text>span {font-weight: 700;}.bonus_sec {font-family: Montserrat, sans-serif;display: flex;align-items: center;gap: 4px;padding: 1px 12px;border: 1px solid #BB0707;background-color: #1F1F1F;border-radius: 10px;max-width: 355px;width: 100%;text-align: left;margin: auto;}.bonus_sec-title {color: red;font-weight: 700;font-size: 14px;line-height: 180%;}.bonus_sec-text {color: white;font-size: 13px;line-height: 120%;}.hero-btn {display: flex;align-items: center;justify-content: center;font-family: "Bebas Neue", sans-serif;font-weight: 700;font-size: 50px;line-height: 100%;text-align: center;padding: 38px 25px;background: linear-gradient(90deg, #BB0707 0%, #D50606 51%, #BB0707 100%);box-shadow: 0px 5px 0px 0px #610606;color: white;border-radius: 30px;max-width: 585px;width: 100%;border: none;text-transform: uppercase;margin-bottom: 42px;text-decoration: none;max-height: 142px;}</style>
+  <!-- Async CSS Loading -->
+  <link rel="stylesheet" href="./css/subscribe.css" media="print" onload="this.media='all'" />
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Bebas+Neue" as="style" />
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700" as="style" />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="preconnect" href="https://connect.facebook.net" />
+  <link rel="preconnect" href="https://www.facebook.com" />
+  <!-- Meta Pixel Code -->
+  <script>
+    !function (f, b, e, v, n, t, s) {
+      if (f.fbq) return; n = f.fbq = function () {
+        n.callMethod ?
+        n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+      n.queue = []; t = b.createElement(e); t.async = !0;
+      t.src = v; s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '2239499559768598');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=2239499559768598&ev=PageView&noscript=1" /></noscript>
+  <!-- End Meta Pixel Code -->
+</head>
+
+<body>
+  <section class="header">
+    <div class="header-container">
+      <div class="hero-left">
+        <h2 class="hero-title">to’xtang! <br> oxirgi qadam qoldi!</h2>
+        <p class="hero-text">
+          Masterklassga qatnashish va <span>Dangasalikdan halos boʻlish darsi</span>ni olish uchun Telegram kanalga
+          <span>obuna bo'ling</span>
+        </p>
+        <div class="hero-btn-box">
+          <img class="hero-img" src="./images/strelka.svg" alt="Arrow icon" />
+          <a href="tg://join?invite=8BxyIgyC9js1NTQy" class="hero-btn thankYouBtn">
+            >>> ro’yxatdan o’tish <<< </a>
+        </div>
+        <div class="bonus_sec">
+          <img class="bonus_sec-icon" src="./images/box.avif" alt="box">
+          <div>
+            <p class="bonus_sec-title">Ro’yxatdan o’tganlar uchun sovg’a:</p>
+            <p class="bonus_sec-text">Dangasalikdan xalos boʻlish va qalb halovatini his qilish uchun 5 ta texnika</p>
+          </div>
+        </div>
+        <img src="./images/mentor-thanks.avif" alt="mentor">
+
+        <!-- <div class="gift__box">
+        <img width="31" height="31" loading="lazy" src="./images/gift.svg" alt="gift" class="gift__img">
+        <p class="gift__text">
+          <b>Ro’yxatdan o’tganlar uchun bonus:</b> <br>
+          Instagramda 0 dan 1000 ta Obunachi Yeg’ish Strategiyasi
+        </p>
+       </div> -->
+      </div>
+    </div>
+  </section>
+
+  <script src="./js/thankYou.js"></script>
+</body>
+
+</html>
