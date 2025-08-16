@@ -92,6 +92,10 @@
   font-weight: 700;
 }
 
+.hero-text>span:last-child {
+  color: red;
+}
+
 .hero-btn-box {
   max-width: 585px;
 }
